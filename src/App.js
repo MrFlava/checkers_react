@@ -6,7 +6,7 @@ import Preferences from './components/Preferences/Preferences';
 
 
 function App() {
-  return (
+    return (
       <div className="wrapper">
         <h1>Application</h1>
         <Router>
@@ -16,7 +16,7 @@ function App() {
           </Routes>
         </Router>
       </div>
-  );
-}
+    );
+    }
 
 export default App;
